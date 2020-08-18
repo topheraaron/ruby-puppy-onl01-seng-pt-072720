@@ -9,11 +9,11 @@ class Dog
     @@all << self
   end
 
-  def self.clear_all
-      @@all.clear
+  def self.all
+      @@all
   end
 
-  def self.all
-
+  def Dog.print_all
+    puts []
   end
 end
