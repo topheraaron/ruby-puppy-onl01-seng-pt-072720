@@ -13,6 +13,10 @@ class Dog
       @@all
   end
 
+  def self.clear_all
+    @@all.clear
+  end
+
   def Dog.print_all
     puts []
   end
